@@ -1,0 +1,38 @@
+import { Component } from '@angular/core';
+import { UrlSerializer } from '@angular/router';
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  standalone: false,
+  styleUrl: './app.component.css'
+})
+export class AppComponent {
+
+  title = "My frontend app";
+  myhobbies:any=[{name:'Reading',fav:false},{name:'Teaching',fav:false},{name:'Playing',fav:false},{name:'Coding',fav:false}];
+   link:string='';
+   today:string = "2025-08-16";
+   jsonData={
+    name:"Utsav Dubey"
+   }
+    parentData = 'Initial Data';
+  showChild = true;
+
+  changeData() {
+    this.parentData = 'Updated Data ' + Math.floor(Math.random() * 100);
+  }
+
+  toggleChild() {
+    this.showChild = !this.showChild;
+  }
+
+  login(user: object) {
+    console.log("Login caption: ", user);
+  }
+ 
+    menuitem(item:string){
+      this.link=item;
+      console.log("Menu item Clicked",item);
+    }
+  
+}

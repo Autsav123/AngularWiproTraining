@@ -1,0 +1,6 @@
+<p>hobbies works!</p>
+<div *ngfor="let hobby of myhobbies">
+<p>{{hobby.name}}-{{hobby.fav}}</p>
+<button (click)="toggleFavorite (hobby)">{{hobby.fav ? 'Unfavorite':'Favourite'}}</button>
+
+

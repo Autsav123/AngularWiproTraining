@@ -1,0 +1,11 @@
+<p>{{caption}}</p>
+<!--<img [src]="img" alt="JUST FOR SINGLE BINDING"/>-->
+<!--<img src={{img}} alt="JUST FOR SINGLE BINDING ANOTHER WAY"/>-->
+<input type="text" [(ngModel)]="username" placeholder="Username"><br/>
+<input type="password" [(ngModel)]="password" placeholder="Password"><br/>
+<button (click)="onLogin()">Login</button>
+
+{{count()}}
+<button (click)="increment()">Increment</button>
+<button (click)="decrement()">Decrement</button>
+<button (click)="reset()">Reset</button>

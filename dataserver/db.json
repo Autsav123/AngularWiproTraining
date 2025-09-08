@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "hg48uzl8za7",
+      "firstName": "Ramu",
+      "age": 20
+    },
+    {
+      "id": "wzrmhfe55nl",
+      "firstName": "Gopi Nath",
+      "age": 35
+    },
+    {
+      "id": "m500jieks8",
+      "firstName": "Shweta",
+      "age": 25
+    }
+  ]
+}

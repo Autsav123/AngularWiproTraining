@@ -1,0 +1,17 @@
+{
+  "name": "fsnackend",
+  "version": "1.0.0",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "express": "^5.1.0",
+  "cors": "^2.8.5",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
